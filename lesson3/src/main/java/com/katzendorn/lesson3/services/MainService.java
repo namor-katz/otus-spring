@@ -26,7 +26,7 @@ public class MainService {
     public void queste(){
         String name = greeterService.whoAmi();
         String hello = getLocaleMessage("user.hallo");
-        ioService.simplePrint(hello + " " + name);
+        ioService.simplePrint(hello + name);
         List<Quest> quests = csv.getQuests();
         if(!quests.isEmpty()){
             ioService.simplePrint(getLocaleMessage("user.offer"));
@@ -38,7 +38,7 @@ public class MainService {
         }
         String duHast = getLocaleMessage("user.hat");
         String countAllAnswer = getLocaleMessage("user.allcount");
-        ioService.simplePrint(name + " " + duHast + " " + getResult() + countAllAnswer);
+        ioService.simplePrint(name + duHast + getResult() + countAllAnswer);
     }
 
     public int getResult(){
