@@ -37,7 +37,7 @@ public class SourceDataImpl implements SourceData {
     }
 
     private String[] getAllContent() {
-        byte[] bytes;
+        byte[] bytes = null;
         try {
             Resource resource = new ClassPathResource(pathToCsvFile);
             InputStream inputStream = resource.getInputStream();

@@ -3,7 +3,12 @@ package com.katzendorn.entity;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+
+import static com.katzendorn.interfaces.Constants.*;
 
 @Getter
 @Setter

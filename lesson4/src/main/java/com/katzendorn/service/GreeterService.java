@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 
 @Setter
+//@RequiredArgsConstructor
 @Service
 public class GreeterService {
     private int counter;

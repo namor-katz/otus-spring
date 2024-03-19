@@ -4,6 +4,7 @@ import com.katzendorn.entity.Quest;
 import com.katzendorn.interfaces.CheckAnswer;
 import com.katzendorn.interfaces.SourceData;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class MainService {
