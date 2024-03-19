@@ -5,7 +5,6 @@ import lombok.SneakyThrows;
 import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.util.Scanner;
@@ -46,7 +45,7 @@ public class IOService {
         for (String line = scanner.nextLine(); !line.isEmpty(); line = scanner.nextLine()) {
             sb.append(line);
         }
-        return sb.length() == 0 ? null : sb.toString();
+        return sb.isEmpty() ? null : sb.toString();
     }
 
     @SneakyThrows

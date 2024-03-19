@@ -1,8 +1,5 @@
 package com.katzendorn.lesson3.config;
 
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 import java.util.Locale;
