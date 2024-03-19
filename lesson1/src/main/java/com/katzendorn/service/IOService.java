@@ -29,6 +29,6 @@ public class IOService {
         for (String line = scanner.nextLine(); !line.isEmpty(); line = scanner.nextLine()) {
             sb.append(line);
         }
-        return sb.length() == 0 ? null : sb.toString();
+        return sb.isEmpty() ? null : sb.toString();
     }
 }

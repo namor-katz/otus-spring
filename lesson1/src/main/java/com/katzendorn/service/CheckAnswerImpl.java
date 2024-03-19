@@ -3,8 +3,6 @@ package com.katzendorn.service;
 import com.katzendorn.entity.Quest;
 import com.katzendorn.interfaces.CheckAnswer;
 
-import java.util.Scanner;
-
 public class CheckAnswerImpl implements CheckAnswer {
     private final IOService io;
 
